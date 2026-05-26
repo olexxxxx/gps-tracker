@@ -1,0 +1,22 @@
+idf_component_register(
+    SRCS 
+        "main.c"
+        "../platform_dependencies/src/spi.c"
+        "../drivers/src/ili_9488.c"
+        "../platform_dependencies/src/system_initialize.c"
+        "../platform_dependencies/src/uart.c"
+        "../drivers/src/gps.c"
+        "../drivers/src/minmea.c"
+    INCLUDE_DIRS 
+        "."
+        "../platform_dependencies/inc"
+        "../drivers/inc"
+        "../app/interfaces"
+    REQUIRES
+        esp_driver_gpio
+        esp_driver_spi
+        esp_driver_uart
+        esp_timer
+        nvs_flash
+        freertos
+)

@@ -185,6 +185,23 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
+[Document9]
+DocumentPath=gps.PcbDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=LGJYYNTG
+
 [Parameter1]
 Name=ProjectAutor
 Value=Olexandr Makedonskyi
@@ -1211,8 +1228,8 @@ UpdateToLatestRevision=1
 PartTypes=0
 ComponentLibIdentifierKind0=Library Name And Type
 ComponentLibraryIdentifier0=gps_project_schematic_library.SchLib
-ComponentDesignItemID0=22uF
-ComponentSymbolReference0=22uF
+ComponentDesignItemID0=SMD_BUTTON
+ComponentSymbolReference0=SMD_BUTTON
 ComponentUpdate0=1
 ComponentIsDeviceSheet0=0
 FullReplace=1
@@ -1228,68 +1245,30 @@ RemoveParameters=0
 AddModels=1
 RemoveModels=1
 UpdateCurrentModels=1
-ParameterName0=Capacitance
+ParameterName0=Check_prices
 ParameterUpdate0=1
-ParameterName1=Case Code (Imperial)
+ParameterName1=Comment
 ParameterUpdate1=1
-ParameterName2=Case Code (Metric)
+ParameterName2=Component Kind
 ParameterUpdate2=1
-ParameterName3=Case/Package
+ParameterName3=Description
 ParameterUpdate3=1
-ParameterName4=Comment
+ParameterName4=Library Reference
 ParameterUpdate4=1
-ParameterName5=Component Kind
+ParameterName5=MF
 ParameterUpdate5=1
-ParameterName6=Construction
+ParameterName6=MP
 ParameterUpdate6=1
-ParameterName7=Depth
+ParameterName7=Package
 ParameterUpdate7=1
-ParameterName8=Description
+ParameterName8=SnapEDA_Link
 ParameterUpdate8=1
-ParameterName9=Dielectric
+ParameterName9=Value
 ParameterUpdate9=1
-ParameterName10=Height
-ParameterUpdate10=1
-ParameterName11=Lead Free
-ParameterUpdate11=1
-ParameterName12=Length
-ParameterUpdate12=1
-ParameterName13=Library Reference
-ParameterUpdate13=1
-ParameterName14=Max Operating Temperature
-ParameterUpdate14=1
-ParameterName15=Min Operating Temperature
-ParameterUpdate15=1
-ParameterName16=Mount
-ParameterUpdate16=1
-ParameterName17=Number of Pins
-ParameterUpdate17=1
-ParameterName18=Package Quantity
-ParameterUpdate18=1
-ParameterName19=Packaging
-ParameterUpdate19=1
-ParameterName20=Radiation Hardening
-ParameterUpdate20=1
-ParameterName21=RoHS Compliant
-ParameterUpdate21=1
-ParameterName22=Series
-ParameterUpdate22=1
-ParameterName23=Termination
-ParameterUpdate23=1
-ParameterName24=Thickness
-ParameterUpdate24=1
-ParameterName25=Tolerance
-ParameterUpdate25=1
-ParameterName26=Voltage Rating
-ParameterUpdate26=1
-ParameterName27=Voltage Rating (DC)
-ParameterUpdate27=1
-ParameterName28=Width
-ParameterUpdate28=1
 ModelTypeGroup0=PCBLIB
 ModelTypeUpdate0=1
 ModelType0=PCBLIB
-ModelName0=1206_CAPACITOR
+ModelName0=SMD_BUTTON
 ModelUpdate0=1
 
 [DatabaseUpdateOptions]
@@ -1308,4 +1287,10 @@ ComparisonOptions5=Kind=Structure Class|MinPercent=75|MinMatch=3|ShowMatch=0|Use
 
 [SmartPDF]
 PageOptions=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+Configuration_Name1=OutputConfigurationParameter1
+Configuration_Item1=DesignatorDisplayMode=Physical|PrintArea=DesignExtent|PrintAreaLowerLeftCornerX=0|PrintAreaLowerLeftCornerY=0|PrintAreaUpperRightCornerX=0|PrintAreaUpperRightCornerY=0|Record=PcbPrintView|DocumentPath=C:\Users\lenovo\Desktop\ajax_navigator_project\hardware_part\Altium\gps_navigator\gps.PcbDoc
+Configuration_Name2=OutputConfigurationParameter2
+Configuration_Item2=IncludeBoardCutouts=False|IncludeBottomLayerComponents=True|IncludeMultiLayerComponents=True|IncludeTopLayerComponents=True|IncludeViewports=True|Index=0|Mirror=False|Name=Multilayer Composite Print|PadNumberFontSize=14|Record=PcbPrintOut|ShowHoles=False|ShowPadNets=False|ShowPadNumbers=False|SubstituteFonts=False|DocumentPath=C:\Users\lenovo\Desktop\ajax_navigator_project\hardware_part\Altium\gps_navigator\gps.PcbDoc
+Configuration_Name3=OutputConfigurationParameter3
+Configuration_Item3=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=MultiLayer|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer|DocumentPath=C:\Users\lenovo\Desktop\ajax_navigator_project\hardware_part\Altium\gps_navigator\gps.PcbDoc
 
